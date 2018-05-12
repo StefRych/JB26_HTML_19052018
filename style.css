@@ -5,6 +5,7 @@ body{
 
 header{
     background: aqua;
+    text-align: center;
 }
 
 h1
@@ -15,5 +16,10 @@ background: aquamarine";
 header nav{
     text-align: center;
     background: whitesmoke;
+
+}
+main section img {
+    max-width: 300px;
+    float: left;
 
 }
