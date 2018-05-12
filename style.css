@@ -1,25 +1,165 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: rgb(164, 143, 188);
+Skip to content
+
+
+This repository
+ 
+Pull requests 
+Issues 
+Marketplace 
+Explore 
+ 
+
+
+Sign out 
+
+
+ Watch 
+1 
+ Star 
+0 
+ Fork 
+0 
+
+piotrkabacinski/HTML-Webinar 
+ Code 
+ Issues 0 
+ Pull requests 0 
+ Projects 0 
+ Wiki 
+ Insights 
+Branch: master 
+Find file 
+Copy path 
+HTML-Webinar/style.css 
+7b69e9a 2 hours ago 
+ piotrkabacinski images + listing elements position 
+1 contributor 
+ 
+Raw
+Blame
+History
+   
+55 lines (43 sloc) 636 Bytes 
+
+body {
+
+    font-family: Arial;
+
+    background: #d4d4ff;
+
 }
 
-header{
-    background: aqua;
+
+
+header {
+
+    background: #67d4f9;
+
+    padding: 10px;
+
+}
+
+
+
+header h1 {
+
+    margin-top: 0;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+header nav {
+
     text-align: center;
-}
 
-h1
-{padding: 10px 20px; 
-background: aquamarine"; 
-}
+    background: #2a86a5;
 
-header nav{
-    text-align: center;
-    background: whitesmoke;
+    padding: 5px;
 
 }
-main section img {
+
+
+
+header nav a {
+
+    color: #000;
+
+}
+
+
+
+main {
+
+    background: white;
+
+    padding: 10px;
+
+}
+
+
+
+main section h2 {
+
+    color: #2a86a5;
+
+}
+
+
+
+main section div {
+
+    overflow: auto;
+
+}
+
+
+
+main section div img {
+
     max-width: 300px;
+
+    float: left;
+
+    border: 1px solid #000;
+
+}
+
+
+
+main section div p {
+
+    margin-left: 5px;
+
     float: left;
 
 }
+
+
+
+.see-more {
+
+    color: red;
+
+    font-weight: bold;
+
+}
+
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+ 
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+
+Press h to open a hovercard with more details. 
